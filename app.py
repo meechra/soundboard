@@ -1,8 +1,8 @@
 import streamlit as st
 from critique import analyze_business_idea
-from profitability import profitability_analysis
+from profit import profitability_analysis
 from partnerships import find_partnerships
-from visualization import display_business_model
+from visual import display_business_model
 
 st.title("SoundBoard: Your AI Business Advisor")
 
